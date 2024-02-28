@@ -11,7 +11,7 @@ class TakeAwayDelivery : FoodDelivery {
         println("==========================================================")
         println("Makananmu sedang dimasak (5 detik)")
         thread { delayAndPrint("Pesanan selesai(3 detik)!", 5) }
-        thread { delayAndPrint("Driver sampai! Pesanan selesai!(3 detik)", 3) }
+        thread { delayAndPrint("Driver sampai! Pesanan selesai!(5 detik)", 3) }
     }
 }
 
